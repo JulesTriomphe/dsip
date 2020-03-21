@@ -11,8 +11,14 @@
 
 [https://moodle.epfl.ch/mod/folder/view.php?id=1056105](https://moodle.epfl.ch/mod/folder/view.php?id=1056105)
 
+KNN source : https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/
+
 # Tips & tricks
 
-To allow running scripts on Windows, run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`
+To allow running scripts on Windows, run
 
-Add `.venv\scripts\activate`
+```powershell
+py -3 -m venv .venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.venv\scripts\activate
+```
